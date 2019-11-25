@@ -1,7 +1,7 @@
 import React from 'react'
 import Header from '../header'
-import Footer from '../footer'
-import Container from '../container'
+import Footer from '../Footer'
+import Container from '../Container'
 
 function Layout({ path, children, pageTitle, ogImage }) {
   return (

@@ -1,8 +1,8 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import Head from './head'
-import Nav from './nav'
-import Title from './title'
+import Nav from './Nav'
+import Title from './Title'
 
 function Header({ path, pageTitle, ogImage }) {
   return (

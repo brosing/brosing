@@ -3,7 +3,7 @@ import { siteMeta } from '../../blog.config'
 import Layout from './default'
 import SyntaxHighlight from '../syntax-highlight'
 import PublishedAt from '../utils/published-at'
-import blogposts from '../../posts/index'
+import blogposts from '../../utils/posts'
 import NextPrevPost from '../next-prev-post'
 
 function BlogPost({ path, meta, children }) {
