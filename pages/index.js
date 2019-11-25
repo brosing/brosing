@@ -1,9 +1,12 @@
 import { withRouter } from 'next/router'
 import Link from 'next/link'
 import pagination from 'pagination'
+import styled from 'styled-components'
+
+import HighlightedText from '../components/HighlightedText'
 import Layout from '../components/layouts/default'
 import Post from '../components/blog-index-item'
-import blogposts from '../posts/index'
+import blogposts from '../utils/posts'
 import { siteMeta } from '../blog.config'
 
 function createRange(start, end) {
@@ -30,7 +33,10 @@ const Blog = ({ router, page = 1 }) => {
   return (
     <Layout pageTitle="Blog" path={router.pathname}>
       <header>
-        <h1>Blog</h1>
+        <StyledTitle>
+          Hi... I'm a <HighlightedText>Front-end Web & Mobile Developer,</HighlightedText> well technically I could
+          build iOS app with swift, while android app use react-native for now.
+        </StyledTitle>
       </header>
 
       {blogposts
@@ -68,11 +74,6 @@ const Blog = ({ router, page = 1 }) => {
           </li>
         )}
       </ul>
-      <style jsx>{`
-        header {
-          margin-bottom: 3em;
-        }
-      `}</style>
     </Layout>
   )
 }
@@ -82,3 +83,9 @@ Blog.getInitialProps = async ({ query }) => {
 }
 
 export default withRouter(Blog)
+
+const StyledTitle = styled.div`
+  font-size: 0.8rem;
+  max-width: 400px;
+  margin-bottom: 4rem;
+`

@@ -1,12 +1,13 @@
+import styled from 'styled-components'
+
 const Container = ({ children }) => (
-  <>
-    <div>{children}</div>
-    <style jsx>{`
-      max-width: 45rem;
-      margin: 0 auto;
-      padding: 0 1em;
-    `}</style>
-  </>
+  <StyledContainer>{children}</StyledContainer>
 )
 
 export default Container
+
+const StyledContainer = styled.div`
+  max-width: 45rem;
+  margin: 0 auto;
+  padding: 0 1em;
+`
