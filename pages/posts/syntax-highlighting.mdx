@@ -1,5 +1,5 @@
 import { withRouter } from 'next/router'
-import BlogPost from '../../components/layouts/blog-post'
+import Layout from '../../components/Layout'
 
 export const meta = {
   published: true,
@@ -11,9 +11,11 @@ export const meta = {
 }
 
 export default withRouter(({ children, router }) => (
-  <BlogPost path={router.pathname} meta={meta}>
-    {children}
-  </BlogPost>
+  <Layout>
+    <div>
+      {children}
+    </div>
+  </Layout>
 ))
 
 Here are some code snippets to show you how syntax highlighting looks.

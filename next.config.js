@@ -22,16 +22,6 @@ module.exports = withMDX({
       }
     )
 
-    if (isServer && !dev) {
-      const originalEntry = config.entry
-      config.entry = async () => {
-        const entries = { ...(await originalEntry()) }
-        // This script imports components from the Next app, so it's transpiled to `.next/server/scripts/build-rss.js`
-        entries['./utils/posts/rss-feed.js'] = './utils/posts/rss-feed.js'
-        return entries
-      }
-    }
-
     return config
   },
 })

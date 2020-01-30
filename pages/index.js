@@ -1,91 +1,80 @@
-import { withRouter } from 'next/router'
-import Link from 'next/link'
-import pagination from 'pagination'
+import React, { useState, useEffect, useRef } from 'react'
 import styled from 'styled-components'
+import Link from 'next/link'
 
+import { posts } from '../utils/getBlogPosts'
+import { colors } from '../utils/constants'
+import Layout from '../components/Layout'
 import HighlightedText from '../components/HighlightedText'
-import Layout from '../components/layouts/default'
-import Post from '../components/blog-index-item'
-import blogposts from '../utils/posts'
-import { siteMeta } from '../blog.config'
 
-function createRange(start, end) {
-  return new Array(end - start).fill().map((d, i) => i + start);
+const TitlePage = ({ words }) => {
+  let splittedWords = words.split('')
+
+  return splittedWords.map((word, index) => (
+    <span key={index}>{ word }</span>
+  ))
 }
 
-const Blog = ({ router, page = 1 }) => {
-  const paginator = new pagination.SearchPaginator({
-    prelink: '/',
-    current: page,
-    rowsPerPage: siteMeta.postsPerPage,
-    totalResult: blogposts.length,
-  })
+const Home = () => {
+  const title = "Browsing"
+  const writingTitle = "writing"
 
-  const {
-    previous,
-    range,
-    next,
-    fromResult,
-    toResult,
-  } = paginator.getPaginationData()
-  const results = createRange(fromResult - 1, toResult)
+  useEffect(() => {
+    console.log("posts", posts)
+  }, [])
 
   return (
-    <Layout pageTitle="Blog" path={router.pathname}>
-      <header>
+    <Layout>
+      <StyledCentered>
         <StyledTitle>
-          Hi... I'm a <HighlightedText>Front-end Web & Mobile Developer,</HighlightedText> well technically I could
-          build iOS app with swift, while android app use react-native for now.
+          <TitlePage words={title} />
         </StyledTitle>
-      </header>
 
-      {blogposts
-        .filter((_post, index) => results.indexOf(index) > -1)
-        .map((post, index) => (
-          <Post
-            key={index}
-            title={post.title}
-            summary={post.summary}
-            date={post.publishedAt}
-            path={post.path}
-          />
-        ))}
+        <main>
+          Hi... I'm a <HighlightedText>Front-end Web & Mobile Developer</HighlightedText>. Well technically,
+          I could build iOS app with swift, while android app use react-native for now.
+        </main>
 
-      <ul>
-        {previous && (
-          <li>
-            <Link href={`/blog?page=${previous}`} as={`/blog/${previous}`}>
-              <a>Previous</a>
-            </Link>
-          </li>
-        )}
-        {range.map((page, index) => (
-          <li key={index}>
-            <Link key={index} href={`/blog?page=${page}`} as={`/blog/${page}`}>
-              <a>{page}</a>
-            </Link>
-          </li>
-        ))}
-        {next && (
-          <li>
-            <Link href={`/blog?page=${next}`} as={`/blog/${next}`}>
-              <a>Next</a>
-            </Link>
-          </li>
-        )}
-      </ul>
+        <StyledWritingTitle>
+          { writingTitle + ":" }
+        </StyledWritingTitle>
+
+        <ul>
+          { posts.map((post, index) => (
+            <li key={index}>
+              <Link href={post.path}>
+                <a>{ post.title }</a>
+              </Link>
+            </li>
+          )) }
+        </ul>
+
+      </StyledCentered>
     </Layout>
   )
 }
 
-Blog.getInitialProps = async ({ query }) => {
-  return query ? { page: query.page } : {}
-}
+export default Home;
 
-export default withRouter(Blog)
-
-const StyledTitle = styled.div`
+const StyledCentered = styled.div`
+  margin-top: -5rem;
+  padding: 1.2rem;
   font-size: 0.8rem;
-  max-width: 400px;
-  margin-bottom: 4rem;
+  text-align: center;
+  line-height: 1.4rem;
+`
+
+const StyledTitle = styled.h3`
+  color: ${colors.dark};
+  padding: 0 0 1rem;
+  font-weight: 600;
+  font-size: 2rem;
+  letter-spacing: 5px;
+`
+
+const StyledWritingTitle = styled.h4`
+  color: ${colors.dark};
+  padding: 4rem 0 0.5rem;
+  font-size: 1.4rem;
+  letter-spacing: 3px;
 `
