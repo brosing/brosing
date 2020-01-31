@@ -1,5 +1,7 @@
 import { withRouter } from 'next/router'
+
 import Layout from '../../components/Layout'
+import BlogPost from '../../components/BlogPost'
 
 export const meta = {
   published: true,
@@ -12,9 +14,9 @@ export const meta = {
 
 export default withRouter(({ children, router }) => (
   <Layout>
-    <div>
+    <BlogPost title={meta.title}>
       {children}
-    </div>
+    </BlogPost>
   </Layout>
 ))
 
