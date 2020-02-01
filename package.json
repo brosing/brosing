@@ -1,10 +1,9 @@
 {
-  "name": "nextjs-blog-starter",
+  "name": "brosing",
   "scripts": {
     "dev": "next",
     "build": "next build",
-    "build:rss": "node ./.next/serverless/utils/posts/rss-feed.js",
-    "now-build": "next build && yarn build:rss"
+    "now-build": "next build"
   },
   "dependencies": {
     "@mdx-js/loader": "^1.5.1",
@@ -24,7 +23,6 @@
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "react-spring": "^8.0.27",
-    "sanitize-html": "^1.21.1",
     "styled-components": "^5.0.0"
   },
   "devDependencies": {
