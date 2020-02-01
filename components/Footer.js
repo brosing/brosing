@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components'
 
-import { colors } from '../utils/constants'
+import { colors } from '../utils'
 
 import Dribbble from '../../public/svg/dribbble.svg'
 import Twitter from '../../public/svg/twitter.svg'

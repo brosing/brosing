@@ -3,7 +3,7 @@ import Head from 'next/head'
 // import Helmet from 'react-helmet';
 import styled from 'styled-components'
 
-// import { helmet } from '../utils/helmet';
+// import { helmet } from '../utils';
 // import Footer from './Footer'
 
 const Layout = ({ children }) => (

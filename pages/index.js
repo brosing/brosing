@@ -2,12 +2,11 @@ import React, { useState, useEffect, useRef } from 'react'
 import styled from 'styled-components'
 import Link from 'next/link'
 
-import { posts } from '../utils/getBlogPosts'
-import { colors } from '../utils/constants'
+import { posts, colors, formatDate } from '../utils'
 import Layout from '../components/Layout'
 import HighlightedText from '../components/HighlightedText'
 
-const TitlePage = ({ words }) => {
+const PageTitle = ({ words }) => {
   let splittedWords = words.split('')
 
   return splittedWords.map((word, index) => (
@@ -19,15 +18,11 @@ const Home = () => {
   const title = "Browsing"
   const writingTitle = "writing"
 
-  useEffect(() => {
-    console.log("posts", posts)
-  }, [])
-
   return (
     <Layout>
       <StyledCentered>
         <StyledTitle>
-          <TitlePage words={title} />
+          <PageTitle words={title} />
         </StyledTitle>
 
         <main>
@@ -43,7 +38,9 @@ const Home = () => {
           { posts.map((post, index) => (
             <li key={index}>
               <Link href={post.path}>
-                <a>{ post.title }</a>
+                <StyledA>
+                  <span>{ formatDate(post.publishedAt) }</span> • { post.title }
+                </StyledA>
               </Link>
             </li>
           )) }
@@ -78,3 +75,19 @@ const StyledWritingTitle = styled.h4`
   font-size: 1.4rem;
   letter-spacing: 3px;
 `
+
+const StyledA = styled.a`
+  text-decoration: none;
+  color: ${colors.dark};
+
+  span {
+    font-size: 0.6rem;
+    text-decoration: underline;
+  }
+
+  &:hover {
+    text-decoration: underline;
+    color: ${colors.green};
+    cursor: pointer;
+  }
+`;
