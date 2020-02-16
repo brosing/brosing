@@ -1,14 +1,14 @@
 import React from 'react';
 import styled from 'styled-components'
 
-import { colors } from '../utils/constants'
+import { colors } from '../utils'
 
-import Dribbble from '../public/static/svg/dribbble.svg'
-import Twitter from '../public/static/svg/twitter.svg'
-import Github from '../public/static/svg/github.svg'
-import Instagram from '../public/static/svg/instagram.svg'
-import Facebook from '../public/static/svg/facebook.svg'
-import Linkedin from '../public/static/svg/linkedin.svg'
+import Dribbble from '../../public/static/svg/dribbble.svg'
+import Twitter from '../../public/static/svg/twitter.svg'
+import Github from '../../public/static/svg/github.svg'
+import Instagram from '../../public/static/svg/instagram.svg'
+import Facebook from '../../public/static/svg/facebook.svg'
+import Linkedin from '../../public/static/svg/linkedin.svg'
 
 export default () => {
   // define socmed links
@@ -36,12 +36,15 @@ export default () => {
           </li>
         ))}
       </StyledSocialList>
-      <a href="/feed.json">RSS Feed</a>
     </StyledFooter>
   )
 }
 
 const StyledFooter = styled.div`
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
   display: flex;
   justify-content: space-between;
   padding: 0 16px;

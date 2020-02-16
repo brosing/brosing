@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 
-import { colors } from '../utils/constants'
+import { colors } from '../utils'
 
 const HighlightedText = ({ children }) => {
   const words = children.split(' ');
