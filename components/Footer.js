@@ -3,12 +3,12 @@ import styled from 'styled-components'
 
 import { colors } from '../utils'
 
-import Dribbble from '../../public/svg/dribbble.svg'
-import Twitter from '../../public/svg/twitter.svg'
-import Github from '../../public/svg/github.svg'
-import Instagram from '../../public/svg/instagram.svg'
-import Facebook from '../../public/svg/facebook.svg'
-import Linkedin from '../../public/svg/linkedin.svg'
+import Dribbble from '../../public/static/svg/dribbble.svg'
+import Twitter from '../../public/static/svg/twitter.svg'
+import Github from '../../public/static/svg/github.svg'
+import Instagram from '../../public/static/svg/instagram.svg'
+import Facebook from '../../public/static/svg/facebook.svg'
+import Linkedin from '../../public/static/svg/linkedin.svg'
 
 export default () => {
   // define socmed links

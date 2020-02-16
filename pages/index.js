@@ -21,31 +21,32 @@ const Home = () => {
   return (
     <Layout>
       <StyledCentered>
-        <StyledTitle>
-          <PageTitle words={title} />
-        </StyledTitle>
+        <div>
+          <StyledTitle>
+            <PageTitle words={title} />
+          </StyledTitle>
 
-        <main>
-          Hi... I'm a <HighlightedText>Front-end Web & Mobile Developer</HighlightedText>. Well technically,
-          I could build iOS app with swift, while android app use react-native for now.
-        </main>
+          <main>
+            Hi... I'm a <HighlightedText>Front-end Web & Mobile Developer</HighlightedText>. Well technically,
+            I could build iOS app with swift, while android app use react-native for now.
+          </main>
 
-        <StyledWritingTitle>
-          { writingTitle + ":" }
-        </StyledWritingTitle>
+          <StyledWritingTitle>
+            { writingTitle + ":" }
+          </StyledWritingTitle>
 
-        <ul>
-          { posts.map((post, index) => (
-            <li key={index}>
-              <Link href={post.path}>
-                <StyledA>
-                  <span>{ formatDate(post.publishedAt) }</span> • { post.title }
-                </StyledA>
-              </Link>
-            </li>
-          )) }
-        </ul>
-
+          <StyledList>
+            { posts.map((post, index) => (
+              <li key={index}>
+                <Link href={post.path}>
+                  <StyledA>
+                    <span>{ formatDate(post.publishedAt) }</span> { post.title }
+                  </StyledA>
+                </Link>
+              </li>
+            )) }
+          </StyledList>
+        </div>
       </StyledCentered>
     </Layout>
   )
@@ -54,16 +55,18 @@ const Home = () => {
 export default Home;
 
 const StyledCentered = styled.div`
-  margin-top: -5rem;
-  padding: 1.2rem;
-  font-size: 0.8rem;
-  text-align: center;
+  display: flex;
+  align-items: center;
   line-height: 1.4rem;
+  font-size: 0.8rem;
+  padding: 0 1rem;
+  height: 100vh;
 `
 
 const StyledTitle = styled.h3`
   color: ${colors.dark};
   padding: 0 0 1rem;
+  margin-top: 0;
   font-weight: 600;
   font-size: 2rem;
   letter-spacing: 5px;
@@ -77,17 +80,39 @@ const StyledWritingTitle = styled.h4`
 `
 
 const StyledA = styled.a`
+  padding-left: 5px;
   text-decoration: none;
   color: ${colors.dark};
 
   span {
     font-size: 0.6rem;
-    text-decoration: underline;
+    display: inline-block;
+    position: relative;
+    margin-right: 1.5rem;
+
+    &:after {
+      content: '•';
+      position: absolute;
+      top: -2px;
+      left: 100%;
+      width: 1.5rem;
+      height: inherit;
+      font-size: 1.2rem;
+      text-align: center;
+    }
   }
 
   &:hover {
-    text-decoration: underline;
-    color: ${colors.green};
     cursor: pointer;
+    color: ${colors.green};
+    text-decoration: underline;
+
+    span {
+      text-decoration: underline;
+    }
   }
+`;
+
+const StyledList = styled.ul`
+  padding-bottom: 2rem;
 `;

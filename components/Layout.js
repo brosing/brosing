@@ -24,18 +24,13 @@ const Layout = ({ children }) => (
 export default Layout
 
 const StyledLayout = styled.div`
-  padding: 0 16px;
-  /* background-color: #eee; */
+  background-color: #fefefe;
   color: #666;
 `
 
 const StyledWrapperChildren = styled.div`
   min-height: 100vh;
-  max-width: 400px;
+  max-width: 600px;
   margin: 0 auto;
-  padding: 1rem;
-  position: relative;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  padding: 0 1rem;
 `
