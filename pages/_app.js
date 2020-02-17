@@ -22,15 +22,15 @@ export default class MyApp extends App {
 
   componentDidMount() {
     const link = document.createElement('link')
-    link.href = 'https://fonts.googleapis.com/css?family=Montserrat:300,400,700|Crimson+Text:400,600&display=swap'
+    link.href = 'https://fonts.googleapis.com/css?family=Montserrat:400,400i,700|Playfair+Display:500&display=swap'
     link.rel = 'stylesheet'
 
     document.head.appendChild(link)
-    const crimsonText = new FontFaceObserver('Crimson Text')
+    const playfairDisplay = new FontFaceObserver('Playfair Display')
     const montserrat = new FontFaceObserver('Montserrat')
-  
-    Promise.all([crimsonText.load(), montserrat.load()]).then(() => {
-      document.documentElement.classList.add('crimsonText', 'montserrat')
+    
+    Promise.all([playfairDisplay.load(), montserrat.load()]).then(() => {
+      document.documentElement.classList.add('playfairDisplay', 'montserrat')
       // show when fonts loaded
       // this.setState(() => ({ show: true }))
     })

@@ -3,11 +3,11 @@ import Head from 'next/head'
 // import Helmet from 'react-helmet';
 import styled from 'styled-components'
 
-// import { helmet } from '../utils';
+import { helmet, colors } from '../utils';
 // import Footer from './Footer'
 
-const Layout = ({ children }) => (
-  <StyledLayout>
+const Layout = ({ children, className }) => (
+  <StyledLayout className={className}>
     <Head>
       <link rel="shortcut icon" type="image/png" href="/favicon.png" />
     </Head>
@@ -24,8 +24,8 @@ const Layout = ({ children }) => (
 export default Layout
 
 const StyledLayout = styled.div`
-  background-color: #fefefe;
-  color: #666;
+  background-color: #fff;
+  color: ${colors.dark};
 `
 
 const StyledWrapperChildren = styled.div`

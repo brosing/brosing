@@ -1,16 +1,26 @@
-const months = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"]
+// const months = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"]
+
+// @desc use to add leading zero if the date length only 1 char
+// @param string
+// @return string
+function addLeadingZero(string) {
+  const isOneChar = string.length == 1
+  const convertedString = isOneChar ? `0${string}` : string
+  return convertedString
+}
 
 function formatDate(date){
   const theDate = new Date(date)
-  // const day = theDate.getDate()
-  // const month = months[theDate.getMonth()]
-  // const year = theDate.getFullYear()
 
   const day = theDate.getDate()
-  const month = theDate.getMonth()
+  const convertedDate = addLeadingZero(day)
+
+  const month = theDate.getMonth().toString()
+  const convertedMonth = addLeadingZero(month)
+
   const year = theDate.getFullYear().toString().slice(-2)
 
-  return `${day}/${month}/${year}`
+  return `${convertedDate}.${convertedMonth}.${year}`
 }
 
 export { formatDate }
