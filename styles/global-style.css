@@ -365,17 +365,17 @@ body {
 
 a { color: #26D07C }
 
-.crimsonText body {
+.montserrat body {
   font-family: 'Montserrat', serif;
   font-weight: 400;
 }
 
-.montserrat h1,
-.montserrat h2,
-.montserrat h3,
-.montserrat h4,
-.montserrat h5,
-.montserrat h6 {
-  font-family: 'crimson Text', sans-serif;
-  font-weight: 700;
+.playfairDisplay h1,
+.playfairDisplay h2,
+.playfairDisplay h3,
+.playfairDisplay h4,
+.playfairDisplay h5,
+.playfairDisplay h6 {
+  font-family: 'Playfair Display', serif;
+  font-weight: 500;
 }

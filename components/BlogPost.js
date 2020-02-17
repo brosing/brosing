@@ -1,6 +1,7 @@
 import styled from 'styled-components'
 import Link from 'next/link'
 
+import { colors } from '../utils'
 import Next from '../public/static/svg/next.svg'
 
 const BlogPost = ({ title, children }) => (
@@ -37,6 +38,7 @@ const StyledHeader = styled.div`
     margin: 1rem 0 1rem;
     padding: 0 0 1rem;
     font-size: 2rem;
+    color: ${colors.dark};
 
     &:after {
       content: ' ';
