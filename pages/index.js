@@ -1,6 +1,7 @@
-import React, { useState, useEffect, useRef } from 'react'
+import React, { memo } from 'react'
 import styled from 'styled-components'
 import Link from 'next/link'
+import { motion } from 'framer-motion';
 
 import { posts, colors, formatDate } from '../utils'
 import Layout from '../components/Layout'
@@ -9,46 +10,85 @@ import HighlightedText from '../components/HighlightedText'
 const PageTitle = ({ words }) => {
   let splittedWords = words.split('')
 
-  return splittedWords.map((word, index) => (
-    <span key={index}>{ word }</span>
-  ))
+  return splittedWords.map((word, index) => {
+    switch (word) {
+      case 'w':
+        return (
+          <motion.span
+            key={index}
+            initial={{ opacity: 1 }} 
+            animate={{ opacity: 0 }} 
+            exit={{ opacity: 0 }}
+            transition={{ delay: 1, duration: 0.5}}
+          >
+            { word }
+          </motion.span>
+        )
+      case 's':
+      case 'i':
+      case 'n':
+      case 'g':
+        return (
+          <motion.span
+            key={index}
+            initial={{ x: 0 }}
+            animate={{ x: '-1.25rem' }}
+            transition={{ delay: 1.25, duration: 1}}
+            style={{ display: 'inline-block'}}
+          >
+            { word }
+          </motion.span>
+        )
+      default:
+        return (
+          <span key={index} >{ word }</span>
+        )
+    }
+  })
 }
 
-const Home = () => {
+const Home = (props) => {
   const title = "Browsing"
   const writingTitle = "Writing"
 
   return (
-    <StyledLayout>
-      <StyledTitle>
-        <PageTitle words={title} />
-      </StyledTitle>
+    <StyledLayout {...props}>
+      <motion.div 
+        initial={{ opacity: 0 }} 
+        animate={{ opacity: 1 }} 
+        exit={{ opacity: 0 }}
+        transition={{ duration: 1, staggerChildren: 0.5 }}
+      >
+        <StyledTitle>
+          <PageTitle words={title} />
+        </StyledTitle>
 
-      <main>
-        Hi... I'm a <HighlightedText>Front-end Web & Mobile Developer</HighlightedText>. Well technically,
-        I could build iOS app with swift, while android app use react-native for now.
-      </main>
+        <main>
+          Hi... I'm a <HighlightedText>Front-end Web & Mobile Developer</HighlightedText>. Well technically,
+          I could build iOS app with swift, while android app use react-native for now.
+        </main>
 
-      <StyledWritingTitle>
-        { writingTitle + ":" }
-      </StyledWritingTitle>
+        <StyledWritingTitle>
+          { writingTitle + ":" }
+        </StyledWritingTitle>
 
-      <StyledList>
-        { posts.map((post, index) => (
-          <li key={index}>
-            <Link href={post.path}>
-              <StyledA>
-                { formatDate(post.publishedAt) } - { post.title }
-              </StyledA>
-            </Link>
-          </li>
-        )) }
-      </StyledList>
+        <StyledList>
+          { posts.map((post, index) => (
+            <li key={index}>
+              <Link href={post.path}>
+                <StyledA>
+                  { formatDate(post.publishedAt) } - { post.title }
+                </StyledA>
+              </Link>
+            </li>
+          )) }
+        </StyledList>
+      </motion.div>
     </StyledLayout>
   )
 }
 
-export default Home;
+export default memo(Home);
 
 const StyledLayout = styled(Layout)`
   height: 100vh;

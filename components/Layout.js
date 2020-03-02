@@ -4,7 +4,7 @@ import Head from 'next/head'
 import styled from 'styled-components'
 
 import { helmet, colors } from '../utils';
-// import Footer from './Footer'
+
 
 const Layout = ({ children, className }) => (
   <StyledLayout className={className}>
