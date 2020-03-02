@@ -1,19 +1,27 @@
 import styled from 'styled-components'
 import Link from 'next/link'
+import { motion } from 'framer-motion'
 
 import { colors } from '../utils'
 import Next from '../public/static/svg/next.svg'
+import Layout from './Layout'
 
 const BlogPost = ({ title, children }) => (
-  <div>
-    <StyledHeader>
-      <Link href="/">
-        <a><Next /></a>
-      </Link>
-      <h1>{ title }</h1>
-    </StyledHeader>
-    <div>{ children }</div>
-  </div>
+  <Layout>
+    <motion.div 
+      initial={{ opacity: 0 }} 
+      animate={{ opacity: 1 }} 
+      exit={{ opacity: 0 }}
+    >
+      <StyledHeader>
+        <Link href="/">
+          <a><Next /></a>
+        </Link>
+        <h1>{ title }</h1>
+      </StyledHeader>
+      <div>{ children }</div>
+    </motion.div>
+  </Layout>
 )
 
 export default BlogPost
