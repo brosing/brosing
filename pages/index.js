@@ -1,54 +1,14 @@
-import React, { memo } from 'react'
+import { memo } from 'react'
 import styled from 'styled-components'
 import Link from 'next/link'
-import { motion } from 'framer-motion';
+import { motion } from 'framer-motion'
 
 import { posts, colors, formatDate } from '../utils'
 import Layout from '../components/Layout'
 import HighlightedText from '../components/HighlightedText'
+import BrosingTitle from '../components/BrosingTitle'
 
-const PageTitle = ({ words }) => {
-  let splittedWords = words.split('')
-
-  return splittedWords.map((word, index) => {
-    switch (word) {
-      case 'w':
-        return (
-          <motion.span
-            key={index}
-            initial={{ opacity: 1 }} 
-            animate={{ opacity: 0 }} 
-            exit={{ opacity: 0 }}
-            transition={{ delay: 1, duration: 0.5}}
-          >
-            { word }
-          </motion.span>
-        )
-      case 's':
-      case 'i':
-      case 'n':
-      case 'g':
-        return (
-          <motion.span
-            key={index}
-            initial={{ x: 0 }}
-            animate={{ x: '-1.25rem' }}
-            transition={{ delay: 1.25, duration: 1}}
-            style={{ display: 'inline-block'}}
-          >
-            { word }
-          </motion.span>
-        )
-      default:
-        return (
-          <span key={index} >{ word }</span>
-        )
-    }
-  })
-}
-
-const Home = (props) => {
-  const title = "Browsing"
+const Home = memo((props) => {
   const writingTitle = "Writing"
 
   return (
@@ -57,11 +17,9 @@ const Home = (props) => {
         initial={{ opacity: 0 }} 
         animate={{ opacity: 1 }} 
         exit={{ opacity: 0 }}
-        transition={{ duration: 1, staggerChildren: 0.5 }}
+        transition={{ duration: 1 }}
       >
-        <StyledTitle>
-          <PageTitle words={title} />
-        </StyledTitle>
+        <BrosingTitle />
 
         <main>
           Hi... I'm a <HighlightedText>Front-end Web & Mobile Developer</HighlightedText>. Well technically,
@@ -86,20 +44,13 @@ const Home = (props) => {
       </motion.div>
     </StyledLayout>
   )
-}
+})
 
-export default memo(Home);
+export default Home
 
 const StyledLayout = styled(Layout)`
   height: 100vh;
   font-size: 0.8rem;
-`
-
-const StyledTitle = styled.h1`
-  color: ${colors.dark};
-  padding: 24% 0 1rem;
-  margin-top: 0;
-  font-size: 1.6rem;
 `
 
 const StyledWritingTitle = styled.h4`
