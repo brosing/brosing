@@ -1,0 +1,104 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;1,300&family=Oswald&display=swap');
+
+:root {
+  --font-body: 'Open Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  --font-head: 'Oswald', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+	--font-mono: Consolas, monaco, 'Ubuntu Mono', 'Liberation Mono', 'Courier New', Courier, monospace;
+	--c-text-1: #444444; /* Heading text color */
+	--c-text-2: #777777; /* Body text color */
+	--c-background-1: #FFFFFF;
+	--c-background-2: #F6F8FA;
+	--c-link-1: #0070F3; /* Action color for links and buttons */
+	--c-link-2: #0366D6; /* Link and buttons on mouse hover and active */
+  --c-accent-text: #0C4047; /* Accent color for <mark> and text selection background */
+}
+
+body {
+  color: var(--c-text-2);
+  font-family: var(--font-body);
+  font-weight: 300;
+  margin: 3rem auto;
+  padding: 0 1.2rem;
+  max-width: 44rem;
+  line-height: 1.8;
+}
+
+p {
+  font-size: 1rem;
+  margin-bottom: 1.3rem;
+  color: var(--c-text-2);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 1rem 0 .5rem;
+  font-family: var(--font-head);
+  line-height: 1.2;
+  color: var(--c-text-1);
+}
+
+h1 { font-size: 3.998rem; }
+h2 { font-size: 2.827rem; }
+h3 { font-size: 1.999rem; }
+h4 { font-size: 1.414rem; }
+h5 { font-size: 1.121rem; }
+h6 { font-size: .88rem; }
+small { font-size: .707em; }
+
+/* https://github.com/mrmrs/fluidity */
+img, canvas, iframe, video, svg, select, textarea {
+  max-width: 100%;
+}
+
+img {
+  border-radius: 50%;
+  height: 200px;
+  margin: 0 auto;
+  width: 200px;
+}
+
+a,
+a:visited {
+  color: var(--c-link-1);
+}
+
+a:hover,
+a:focus,
+a:active {
+  color: var(--c-link-2);
+  text-decoration: underline;
+}
+
+pre {
+  background-color: #fafafa;
+  padding: 1rem;
+  text-align: left;
+}
+
+blockquote {
+  margin: 0;
+  border-left: 5px solid #7a7a7a;
+  font-style: italic;
+  padding: 1.33em;
+  text-align: left;
+}
+
+/****************************
+ * Custom styles with class *
+ ****************************/
+
+a.unstyled {
+  color: var(--c-text-2);
+  text-decoration: none;
+}
+
+a.unstyled:hover,
+a.unstyled:focus,
+a.unstyled:active {
+  color: var(--c-link-2);
+  text-decoration: underline;
+}
+
+.home-header {
+  padding-top: 9vh;
+}

@@ -1,34 +1,45 @@
-import App from 'next/app'
-// import { ThemeProvider } from 'styled-components'
-import FontFaceObserver from 'fontfaceobserver'
-import { AnimatePresence } from 'framer-motion';
+import App from "next/app"
+import { PageTransition } from "next-page-transitions"
 
-import '../styles/syntax-theme.css'
-import '../styles/global-style.css'
+import '../styles.css'
 
 export default class MyApp extends App {
+  static async getInitialProps({ Component, router, ctx }) {
+    let pageProps = {}
 
-  componentDidMount() {
-    const link = document.createElement('link')
-    link.href = 'https://fonts.googleapis.com/css?family=Montserrat:400,400i,700|Playfair+Display:500&display=swap'
-    link.rel = 'stylesheet'
+    if (Component.getInitialProps) {
+      pageProps = await Component.getInitialProps(ctx)
+    }
 
-    document.head.appendChild(link)
-    const playfairDisplay = new FontFaceObserver('Playfair Display')
-    const montserrat = new FontFaceObserver('Montserrat')
-    
-    Promise.all([playfairDisplay.load(), montserrat.load()]).then(() => {
-      document.documentElement.classList.add('playfairDisplay', 'montserrat')
-    })
+    return { pageProps }
   }
 
-  render () {
+  render() {
     const { Component, pageProps, router } = this.props
-    
+
     return (
-      <AnimatePresence exitBeforeEnter>
-        <Component {...pageProps} key={router.route} />
-      </AnimatePresence>
-    )
+      <>
+        <PageTransition timeout={300} classNames="page-transition">
+          <Component {...pageProps} key={router.route} />
+        </PageTransition>
+        
+        <style jsx global>{`
+          .page-transition-enter {
+            opacity: 0;
+          }
+          .page-transition-enter-active {
+            opacity: 1;
+            transition: opacity 300ms;
+          }
+          .page-transition-exit {
+            opacity: 1;
+          }
+          .page-transition-exit-active {
+            opacity: 0;
+            transition: opacity 300ms;
+          }
+        `}</style>
+      </>
+    );
   }
 }
