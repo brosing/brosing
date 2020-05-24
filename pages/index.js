@@ -6,7 +6,7 @@ export default function Home({ posts }) {
   return (
     <>
       <header className="home-header">
-        <h2>Brosing</h2>
+        <h2>Bro<span style={{ opacity: '0.1' }}>w</span>sing</h2>
         <p>Frontend Engineer turn to iOS Engineer</p>
       </header>
       
