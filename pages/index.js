@@ -1,33 +1,40 @@
 import Link from 'next/link'
 import matter from 'gray-matter'
 
+// import Stories from '../components/Stories'
+
+const LetterW = () => (
+  <span style={{ opacity: '0.1' }}>w</span>
+)
+
 export default function Home({ posts, stories }) {
 
   return (
-    <>
-      <header className="home-header">
-        <h2>Bro<span style={{ opacity: '0.1' }}>w</span>sing</h2>
-        <p>Frontend Engineer turn to iOS Engineer</p>
-      </header>
-      
-      <ul>
-        { stories.map(story => (
-          <li key={story.slug}>
-            <Link href={`/story/${story.slug}`}>
-              <a className="unstyled">{story.title}</a>
-            </Link>
-          </li>
-        )) }
+    <div className="home">
+      <div className="container">
+        <header className="home-header mb-4">
+          <h2>Bro<LetterW />sing</h2>
+          <p>Frontend Engineer turn to iOS Engineer</p>
+        </header>
 
-        { posts.map(post => (
-          <li key={post.slug}>
-            <Link href={`/post/${post.slug}`}>
-              <a className="unstyled">{post.meta.title}</a>
-            </Link>
-          </li>
-        )) }
-      </ul>
-    </>
+        {/* <h4>Works</h4>
+        <Stories
+          stories={stories}
+          className="mb-4"
+        /> */}
+
+        <h4>Articles</h4>
+        <ul className="mb-4">
+          { posts.map(post => (
+            <li key={post.slug}>
+              <Link href={`/post/${post.slug}`}>
+                <a className="unstyled">{post.meta.title}</a>
+              </Link>
+            </li>
+          )) }
+        </ul>
+      </div>
+    </div>
   )
 }
 
@@ -42,7 +49,6 @@ export async function getStaticProps() {
     return slug
   }
 
-  //get posts & context from folder
   const posts = (context => {
     const keys = context.keys()
     const values = keys.map(context)

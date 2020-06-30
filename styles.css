@@ -18,9 +18,9 @@ body {
   color: var(--c-text-2);
   font-family: var(--font-body);
   font-weight: 300;
-  margin: 3rem auto;
+  /* margin: 0 auto;
   padding: 0 1.2rem;
-  max-width: 44rem;
+  max-width: 44rem; */
   line-height: 1.8;
 }
 
@@ -99,6 +99,27 @@ a.unstyled:active {
   text-decoration: underline;
 }
 
+
+/***************
+ * CLASS UTILS *
+ ***************/
+
+.home {
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 0 1.2rem;
+  max-width: 44rem;
+}
+
 .home-header {
   padding-top: 9vh;
+}
+
+.mb-4 {
+  margin-bottom: 4rem;
 }

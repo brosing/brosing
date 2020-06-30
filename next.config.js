@@ -1,4 +1,6 @@
-module.exports = {
+const withImages = require('next-images')
+
+module.exports = withImages({
   webpack: function(config) {
     config.module.rules.push({
       test: /\.md$/,
@@ -6,4 +8,4 @@ module.exports = {
     })
     return config
   }
-}
+})

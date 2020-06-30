@@ -3,8 +3,6 @@ title: "Live demo"
 date: "2020-01-07"
 ---
 
-Changes are automatically rendered as you type.
-
 ## Table of Contents
 
 * Implements [GitHub Flavored Markdown](https://github.github.com/gfm/)

@@ -5,7 +5,7 @@ import matter from 'gray-matter'
 import CodeBlock from '../../components/CodeBlock'
 
 const PostTemplate = ({ content, title }) => (
-  <article>
+  <article className="container">
     <Link href="/">
       <a className="unstyled">&larr;</a>
     </Link>
