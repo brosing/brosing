@@ -18,10 +18,9 @@ body {
   color: var(--c-text-2);
   font-family: var(--font-body);
   font-weight: 300;
-  /* margin: 0 auto;
-  padding: 0 1.2rem;
-  max-width: 44rem; */
-  line-height: 1.8;
+  margin: 0;
+  padding: 0;
+  line-height: 1.5;
 }
 
 p {
@@ -50,13 +49,6 @@ img, canvas, iframe, video, svg, select, textarea {
   max-width: 100%;
 }
 
-img {
-  border-radius: 50%;
-  height: 200px;
-  margin: 0 auto;
-  width: 200px;
-}
-
 a,
 a:visited {
   color: var(--c-link-1);
@@ -81,6 +73,10 @@ blockquote {
   font-style: italic;
   padding: 1.33em;
   text-align: left;
+}
+
+ul, menu, dir {
+  padding-inline-start: 1.6rem;
 }
 
 /****************************
@@ -112,7 +108,7 @@ a.unstyled:active {
 
 .container {
   margin: 0 auto;
-  padding: 0 1.2rem;
+  padding: 1.2rem;
   max-width: 44rem;
 }
 
@@ -120,6 +116,29 @@ a.unstyled:active {
   padding-top: 9vh;
 }
 
-.mb-4 {
-  margin-bottom: 4rem;
+.mb-5 {
+  margin-bottom: 5rem;
+}
+
+.list-socmed {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+}
+.list-socmed a {
+  display: block;
+  width: 0.8rem;
+  height: 0.8rem;
+}
+.list-socmed li:not(:first-of-type) a {
+  margin-left: 0.8rem;
+}
+.list-socmed li:not(:last-of-type) a {
+  margin-right: 0.8rem;
+}
+.list-socmed img {
+  display: block;
+  opacity: 0.5;
 }

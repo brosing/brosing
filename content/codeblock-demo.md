@@ -1,9 +1,9 @@
 ---
-title: "Live demo"
-date: "2020-01-07"
+title: "Codeblock Demo"
+date: "2020-01-30"
 ---
 
-## Table of Contents
+## Codeblock Demo
 
 * Implements [GitHub Flavored Markdown](https://github.github.com/gfm/)
 * Renders actual, "native" React DOM elements
