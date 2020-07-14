@@ -15,7 +15,8 @@ export default function Home({ posts, stories }) {
       <div className="container">
         <header className="home-header mb-5">
           <h2>Bro<LetterW />sing</h2>
-          <p>Seek and value harmony between design and code.<br/>Self claim designer, web & iOS native developer</p>
+          <p>Mencari dan memberikan makna diantara keharmonian design dan code.<br/>
+          Sedikit bisa design, kebanyakan web & iOS native developer</p>
           <SocmedList />
         </header>
 
