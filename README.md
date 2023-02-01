@@ -1,4 +1,4 @@
-<img alt="Singgih NN | Tech Lead Frontend Web & Mobile" src="https://raw.githubusercontent.com/brosing/brosing/main/banner.png" width="100%" />
+[![Singgih](https://raw.githubusercontent.com/brosing/brosing/main/banner.png)](https://github.com/brosing/)
 
 Hi... I am Singgih, just about to start some personal touches after years of my career, a bit late but here I am.
 
