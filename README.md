@@ -4,6 +4,8 @@ Currently works at Lifepack.id as Lead Frontend Web & Mobile.
 
 
 ```javascript
+//  @ little bit about me
+
 const styleTools = ['styled-components', 'chakra-ui', 'tailwind']
 
 function experiences() {
