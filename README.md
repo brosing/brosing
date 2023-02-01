@@ -1,16 +1,37 @@
-### Hi there 👋
+Hi... I am Singgih, just about to start some personal touches after years of my career, a bit late but here I am.
 
-<!--
-**brosing/brosing** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+```javascript
+// Current position:
+// Tech Lead Frontend Web & Mobile at Lifepack.id
 
-Here are some ideas to get you started:
+const styleTools = ['styled-components', 'chakra-ui', 'tailwind']
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+function experiences() {
+  const web = {
+    type: ['SPA', 'PWA', 'SSR', 'JAM STACK'],
+    code: 'typescript',
+    mainTools: ['react', 'redux', 'next.js', 'framer-motion', ...styleTools]
+  }
+
+  const mobile = [
+    {
+      type: 'native',
+      code: ['swift', 'kotlin'],
+      mainTools: ['SwiftUI', 'RxSwift', 'Alamofire']
+    },
+    {
+      type: 'hybrid',
+      code: 'typescript',
+      mainTools: ['react-native', 'expo', 'native-base']
+    }
+  ]
+  
+  return { web, mobile }
+}
+
+const me = {
+  hardSkills: experiences(),
+  softSkills: 'Ssst... not the right place to talk about'
+}
+```
+
