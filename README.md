@@ -1,9 +1,9 @@
 Hi... I am Singgih, just about to start some personal touches after years of my career, a bit late but here I am.
 
-```javascript
-// Current position:
-// Tech Lead Frontend Web & Mobile at Lifepack.id
+Currently works at Lifepack.id as Lead Frontend Web & Mobile.
 
+
+```javascript
 const styleTools = ['styled-components', 'chakra-ui', 'tailwind']
 
 function experiences() {
@@ -34,4 +34,8 @@ const me = {
   softSkills: 'Ssst... not the right place to talk about'
 }
 ```
+
+Take a visit :point_down:
+
+[![LinkedIn](https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/singgih-nn/)
 
