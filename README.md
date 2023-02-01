@@ -1,8 +1,15 @@
-[![Singgih](https://raw.githubusercontent.com/brosing/brosing/main/banner.png)](https://github.com/brosing/)
+<a href="[https://www.enji.dev/work/contac](https://github.com/brosing)t">
+  <img alt="Singgih" src="https://raw.githubusercontent.com/brosing/brosing/main/banner.png" width="100%" />
+</a>
+
+<br />
+<br />
 
 Hi... I am Singgih, just about to start some personal touches after years of my career, a bit late but here I am.
 
-Currently works at Lifepack.id as Lead Frontend Web & Mobile.
+Currently works at [Lifepack](https://lifepack.id) as Lead Frontend Web & Mobile.
+
+<br />
 
 
 ```javascript
