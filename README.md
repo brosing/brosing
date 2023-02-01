@@ -1,5 +1,9 @@
-<a href="[https://www.enji.dev/work/contac](https://github.com/brosing)t">
-  <img alt="Singgih" src="https://raw.githubusercontent.com/brosing/brosing/main/banner.png" width="100%" />
+<a href="https://github.com/brosing">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/brosing/brosing/main/banner-dark.png">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/brosing/brosing/main/banner-light.png" />
+    <img alt="Singgih" src="https://raw.githubusercontent.com/brosing/brosing/main/banner-dark.png" width="100%" />
+  </picture>
 </a>
 
 <br />
