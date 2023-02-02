@@ -1,9 +1,13 @@
-<a href="https://github.com/brosing">
+<!-- <a href="https://github.com/brosing">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/brosing/brosing/main/banner-dark.png">
     <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/brosing/brosing/main/banner-light.png" />
     <img alt="Singgih" src="https://raw.githubusercontent.com/brosing/brosing/main/banner-dark.png" width="100%" />
   </picture>
+</a> -->
+
+<a href="https://github.com/brosing">
+  <img alt="Singgih" src="https://raw.githubusercontent.com/brosing/brosing/main/banner-dark.png" width="100%" />
 </a>
 
 <br />
