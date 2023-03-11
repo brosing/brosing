@@ -1,21 +1,12 @@
-<a href="https://github.com/brosing">
+<!-- <a href="https://github.com/brosing">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/brosing/brosing/main/banner-dark.png">
     <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/brosing/brosing/main/banner-light.png" />
     <img alt="Singgih" src="https://raw.githubusercontent.com/brosing/brosing/main/banner-dark.png" width="100%" />
   </picture>
-</a>
-
-<!-- <a href="https://github.com/brosing">
-  <img alt="Singgih" src="https://raw.githubusercontent.com/brosing/brosing/main/banner-dark.png" width="100%" />
 </a> -->
 
-<br />
-<br />
-
-Hi... I am Singgih, just about to start some personal touches after years of my career, a bit late but here I am.
-
-Currently works at [Lifepack](https://lifepack.id) as Lead Frontend Web & Mobile.
+Hi... I am Singgih, currently works at [Lifepack](https://lifepack.id) as Frontend Web & Mobile Tech Lead.
 
 <br />
 
@@ -34,14 +25,13 @@ function experiences() {
 
   const mobile = [
     {
-      type: 'native',
-      code: ['swift', 'kotlin'],
-      mainTools: ['SwiftUI', 'RxSwift', 'Alamofire']
-    },
-    {
       type: 'hybrid',
       code: 'typescript',
       mainTools: ['react-native', 'expo', 'native-base']
+    },
+    {
+      type: 'native',
+      code: ['swift', 'kotlin'],
     }
   ]
   
