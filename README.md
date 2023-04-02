@@ -1,52 +1,15 @@
-<!-- <a href="https://github.com/brosing">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/brosing/brosing/main/banner-dark.png">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/brosing/brosing/main/banner-light.png" />
-    <img alt="Singgih" src="https://raw.githubusercontent.com/brosing/brosing/main/banner-dark.png" width="100%" />
-  </picture>
-</a> -->
+Hi... I am Singgih 
 
-Hi... I am Singgih, currently works at [Lifepack](https://lifepack.id) as Frontend Web & Mobile Tech Lead.
+---
 
-<br />
+- loving both design & code, this lead me to start career as Frontend Engineer
+- curently works at [Lifepack](lifepack.id) as Frontend Web & Mobile Tech Lead
+- do I only use web technology to develop mobile? Nope
+- I've experiences developing native iOS app with `Swift` & `SwiftUI` for about 2 years
+- also building android app with `Kotlin`? Unfortunately not from scratch, but I do experience bug fixes & maintenance on it
+- moslty, I would use `React.js`, `Next.js` & `Typescript` to build the web & `React Native` to build an app
+- experience build any kind of web, SPA, PWA, JAM Stack, etc...
 
 
-```javascript
-//  @ little bit about me
-
-const styleTools = ['styled-components', 'chakra-ui', 'tailwind']
-
-function experiences() {
-  const web = {
-    type: ['SPA', 'PWA', 'SSR', 'JAM STACK'],
-    code: 'typescript',
-    mainTools: ['react', 'redux', 'next.js', 'framer-motion', ...styleTools]
-  }
-
-  const mobile = [
-    {
-      type: 'hybrid',
-      code: 'typescript',
-      mainTools: ['react-native', 'expo', 'native-base']
-    },
-    {
-      type: 'native',
-      code: ['swift', 'kotlin'],
-    }
-  ]
-  
-  return { web, mobile }
-}
-
-const me = {
-  hardSkills: experiences(),
-  softSkills: 'Ssst... not the right place to talk about'
-}
-```
-
-Take a visit :point_down:
-
-[![LinkedIn](https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/singgih-nn/)
-
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=brosing&layout=compact)](https://github.com/anuraghazra/github-readme-stats)
-
+    [![LinkedIn](https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/singgih-nn/)
+    
