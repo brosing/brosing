@@ -1,7 +1,5 @@
 ## Hi... I am Singgih 
 
----
-
 - loving both design & code, this lead me to start career as Frontend Engineer
 - curently works at [Lifepack](lifepack.id) as Frontend Web & Mobile Tech Lead
 - do I only use web technology to develop mobile? Nope
