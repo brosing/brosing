@@ -1,4 +1,4 @@
-![Alt text](/banner.png "Nothing here")
+![Alt text](/laptop.png "Nothing here")
 
 ## Hi... I am Singgih 
 
