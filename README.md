@@ -1,5 +1,3 @@
-![Alt text](/laptop.png "Nothing here")
-
 ## Hi... I am Singgih 
 
 Loving both design & code turn me into Frontend Engineer 👨‍💻
