@@ -6,5 +6,5 @@ Loving both design & code turn me into Frontend Engineer 👨‍💻
 - Also building iOS + Android app with `React Native`
 - Moslty code in `Typescript`, `React.js` & `Next.js` to build any kind of web app: SPA, PWA, JAM Stack, etc...
 
-[![X](https://img.shields.io/badge/(formerly%20twitter)-1DA1F2?style=for-the-badge&logo=x&color=black&logoColor=white)](https://x.com/singgih_nn) 
-[![LinkedIn](https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/singgih-nn/)
+[![X](https://img.shields.io/badge/(formerly%20twitter)-1DA1F2?style=flat&logo=x&color=black&logoColor=white)](https://x.com/singgih_nn) 
+[![LinkedIn](https://img.shields.io/badge/linkedin-%230077B5.svg?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/singgih-nn/)
