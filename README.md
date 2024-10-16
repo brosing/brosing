@@ -6,4 +6,4 @@ Loving both design & code turn me into Frontend Engineer 👨‍💻
 - Also building iOS + Android app with `React Native`
 - Moslty code in `Typescript`, `React.js` & `Next.js` to build any kind of web app: SPA, PWA, JAM Stack, etc...
 
-and here's [my bento](https://bento.me/singgih)
+building [mnmls.app](https://mnmls.app) and here's [my bento](https://bento.me/singgih)
