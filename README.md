@@ -7,3 +7,7 @@ Loving both design & code turn me into Frontend Engineer 👨‍💻
 - Moslty code in `Typescript`, `React.js` & `Next.js` to build any kind of web app: SPA, PWA, JAM Stack, etc...
 
 building [mnmls.app](https://mnmls.app) and here's [my bento](https://bento.me/singgih)
+
+ongoing projects
+ - [Tufoku (Chrome extension)](https://chromewebstore.google.com/detail/tufoku/odfdbefdkffmkegolloiifcifclofeim) - launch & improving
+ - [mnnote](https://github.com/brosing/mnote) - on development
