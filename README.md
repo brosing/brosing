@@ -5,7 +5,7 @@ Loving both design & code turn me into Frontend Engineer  👨‍💻
 - Experiences in native iOS app with `Swift` & `SwiftUI`
 - Also building iOS + Android app with `React Native`
 - Moslty code in `Typescript`, `React.js` & `Next.js` to build any kind of web app: SPA, PWA, JAM Stack, etc...
-- But at the moment I am enjoying Svelte, as you can see a project below **mnnote**, it's a project I am actively building with Svelte 5 & Tauri.
+- But at the moment I am enjoying Svelte, as you can see a project below **mnnote** build on top of Svelte 5 & Tauri
 - Overall working experiences you can take a look at my [Linkedin](https://www.linkedin.com/in/singgih-nn)
 
 Developing [mnmls.app](https://mnmls.app), but currently active on these 2 beatuiful projects:
