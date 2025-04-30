@@ -1,4 +1,5 @@
 ## Hi... I am Singgih 
+![alt text](https://github.com/brosing/brosing/blob/main/banner.jpeg?raw=true)
 
 Loving both design & code turn me into Frontend Engineer  👨‍💻
 - Ex Tech Lead Frontend Web & Mobile in Lifepack. Currently active looking for new opportunity ~
