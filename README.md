@@ -6,7 +6,10 @@ Loving both design & code turn me into Frontend Engineer  👨‍💻
 - Also building iOS + Android app with `React Native`
 - Moslty code in `Typescript`, `React.js` & `Next.js` to build any kind of web app: SPA, PWA, JAM Stack, etc...
 - But at the moment I am enjoying Svelte, as you can see a project below **mnnote** build on top of Svelte 5 & Tauri
-- Overall working experiences you can take a look at my [Linkedin](https://www.linkedin.com/in/singgih-nn)
+- Overall working experiences you can take a look at my [Linkedin](https://linkedin.com/in/singgih-nn)
+- Quite active on [X](https://x.com/singgih_nn) and [Threads](https://threads.com/@singgih_nn)
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 Developing [mnmls.app](https://mnmls.app), but currently active on these 2 beatuiful projects:
  - **Tufoku** [Web](tufoku.mnmls.app) / [Chrome extension](https://chromewebstore.google.com/detail/tufoku/odfdbefdkffmkegolloiifcifclofeim) - minimalist browser homepage for your short term projects with lofi player
