@@ -11,5 +11,5 @@ Loving both design & code turn me into Frontend Engineer  👨‍💻
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 Developing [mnmls.app](https://mnmls.app), but currently active on these 2 beatuiful projects:
- - **Tufoku** [Web](tufoku.mnmls.app) / [Chrome extension](https://chromewebstore.google.com/detail/tufoku/odfdbefdkffmkegolloiifcifclofeim) - minimalist browser homepage for your short term projects with lofi player
+ - **Tufoku** [Web](https://tufoku.mnmls.app) / [Chrome extension](https://chromewebstore.google.com/detail/tufoku/odfdbefdkffmkegolloiifcifclofeim) - minimalist browser homepage for your short term projects with lofi player
  - **mnnote** [Repo](https://github.com/brosing/mnote) - a simple note taking app (journaling & daily notes)
