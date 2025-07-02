@@ -4,13 +4,12 @@ Loving both design & code turn me into Frontend Engineer  👨‍💻
 - Experiences in native iOS app with `Swift` & `SwiftUI`
 - Also building iOS + Android app with `React Native`
 - Moslty code in `Typescript`, `React.js` & `Next.js` to build any kind of web app: SPA, PWA, JAM Stack, etc...
-- But at the moment I am enjoying `Svelte`, as you can see a project below [mnnote](https://github.com/brosing/mnote) build on top of Svelte 5 & Tauri, also [unekunik](unekunik.com) built on top of SvelteKit
-- Overall working experiences you can take a look at my [Linkedin](https://linkedin.com/in/singgih-nn)
-- Quite active on [X](https://x.com/singgih_nn) and [Threads](https://threads.com/@singgih_nn)
+- But recently I am enjoying `Svelte`, building these projects:
+  - [unekunik](unekunik.com) built on top of SvelteKit
+  - [mnnote](https://github.com/brosing/mnote) build on top of Svelte 5 & Tauri
+- Overall working experiences you can take a look at my [Linkedin](https://linkedin.com/in/singgih-nn), quite active on [X](https://x.com/singgih_nn) and [Threads](https://threads.com/@singgih_nn)
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-Developing [mnmls.app](https://mnmls.app), but currently active on these 2 beatuiful projects:
- - **Tufoku** [Web](https://tufoku.mnmls.app) / [Chrome extension](https://chromewebstore.google.com/detail/tufoku/odfdbefdkffmkegolloiifcifclofeim) - minimalist browser homepage for your short term projects with lofi player
- - **mnnote** [Repo](https://github.com/brosing/mnote) - a simple note taking app (journaling & daily notes)
- - **satu** - [Web](https://satu.mnmls.app) One Task at menubar with reminders & built-in lofi player 🎵
+Building some minimalist products listed on mnmls.app & currently active on building this one: <br>
+[**satu**](https://satu.mnmls.app) - One Task at menubar with reminders & built-in lofi player 🎵
