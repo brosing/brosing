@@ -11,5 +11,5 @@ Loving both design & code turn me into Frontend Engineer  👨‍💻
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-Building some minimalist products listed on mnmls.app & currently active on building this one: <br>
-[**satu**](https://satu.mnmls.app) - One Task at menubar with reminders & built-in lofi player 🎵
+Building some minimalist products listed on [mnmls.app](https://lmnmls.app) & currently active on building this one: <br>
+[**satu**](https://satu.mnmls.net) - One Task at menubar with reminders & built-in lofi player 🎵
