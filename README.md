@@ -1,6 +1,7 @@
 ## Hi... I am Singgih 
-Loving both design & code turn me into Frontend Engineer  👨‍💻
-- Ex Tech Lead Frontend Web & Mobile in Lifepack. Currently active looking for new opportunity ~
+Loving both design & code turn me into Frontend Engineer, but AI make me builder  👨‍💻
+- Currently works as a Fullstack Engineer in Houp.
+- Ex Tech Lead Frontend Web & Mobile in Lifepack.
 - Experiences in native iOS app with `Swift` & `SwiftUI`
 - Also building iOS + Android app with `React Native`
 - Moslty code in `Typescript`, `React.js` & `Next.js` to build any kind of web app: SPA, PWA, JAM Stack, etc...
@@ -11,5 +12,5 @@ Loving both design & code turn me into Frontend Engineer  👨‍💻
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-Building some minimalist products listed on [mnmls.net](https://mnmls.net) & currently active on building this one: <br>
-[**satu**](https://satu.mnmls.net) - One Task at menubar with reminders & built-in lofi player 🎵
+Building some minimalist products listed on [mnmls.net](https://mnmls.net) & currently active on building: <br>
+[**satu**](https://satu.mnmls.net) - cozy productivity companion to keep your focus on a single task with Lofi 🎵
