@@ -1,20 +1,27 @@
-## Hi... I am Singgih 
-Loving both design & code turn me into Software Engineer, but AI make me builder  👨‍💻
-- Currently works as a Fullstack Software Engineer in Houp.
-- Ex Tech Lead Frontend Web & Mobile in Lifepack.
-- Experiences in native iOS app with `Swift` & `SwiftUI`
-- Also building iOS + Android app with `React Native`
-- Moslty code in `Typescript`, `React.js` & `Next.js` to build any kind of web app: SPA, PWA, JAM Stack, etc...
-- But recently I am enjoying `Svelte`, building these projects:
-  - [unekunik](unekunik.com) built on top of SvelteKit
-  - [mnnote](https://github.com/brosing/mnote) build on top of Svelte 5 & Tauri
-  - [kala](https://github.com/brosing/Kala) daily photo journal focus minimal design, local first, and easily export files 
-- Overall working experiences you can take a look at my [Linkedin](https://linkedin.com/in/singgih-nn), quite active on [X](https://x.com/singgih_nn) and [Threads](https://threads.com/@singgih_nn)
+## Hey there — I’m Singgih 👋
+I love where design and code collide, and AI has turned that spark into a full-time builder energy. 👨‍💻
+
+- Currently building fullstack magic at Houp.
+- Former Tech Lead for frontend web + mobile at Lifepack.
+- Crafted native iOS apps with `Swift` & `SwiftUI`.
+- Built cross-platform mobile experiences using `React Native`.
+- Mostly writing `TypeScript`, `React.js`, and `Next.js` for SPA, PWA, JAMstack, and anything that feels smooth.
+- Lately I’m hooked on `Svelte`, and I’ve been shipping:
+  - [unekunik](https://unekunik.com) — a SvelteKit passion project
+  - [mnnote](https://github.com/brosing/mnote) — built with Svelte 5 + Tauri
+  - [pokematch](https://pokematch.mnmls.net) — a playful Pokemon memory game
+- Also love making useful tools in other stacks, like:
+  - [kala](https://github.com/brosing/Kala) — a minimalist __open source__ photo journal that’s local-first and export-ready
+  - [Tufoku](https://chromewebstore.google.com/detail/tufoku/odfdbefdkffmkegolloiifcifclofeim) — Minimal todo list with notes & lofi player as your Chrome new tab page
+  - [Ayah of The Day](https://chromewebstore.google.com/detail/ayah-of-the-day/amhjpdjjkeboeogdofoidkcmfjnaafaf) — Quote of the day from the Quran as your Chrome new tab page
+
+Want to see the full story? Peek my [LinkedIn](https://linkedin.com/in/singgih-nn), [X](https://x.com/singgih_nn), or [Threads](https://threads.com/@singgih_nn).
 
 ---
 
-Building some minimalist products listed on [mnmls.net](https://mnmls.net) & currently active on building: <br>
-[**satu**](https://satu.mnmls.net) - cozy productivity companion to keep your focus on a single task with Lofi 🎵
+I build minimalist products for focus and flow, featured on [mnmls.net](https://mnmls.net). Right now I’m excited about:
+
+[**satu**](https://satu.mnmls.net) — a cozy productivity companion for staying locked into one task with lo-fi vibes. 🎵
 
 ![Satu App](<satu-ss.png>)
 
