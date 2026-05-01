@@ -11,7 +11,10 @@ Loving both design & code turn me into Software Engineer, but AI make me builder
   - [kala](https://github.com/brosing/Kala) daily photo journal focus minimal design, local first, and easily export files 
 - Overall working experiences you can take a look at my [Linkedin](https://linkedin.com/in/singgih-nn), quite active on [X](https://x.com/singgih_nn) and [Threads](https://threads.com/@singgih_nn)
 
------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+---
 
 Building some minimalist products listed on [mnmls.net](https://mnmls.net) & currently active on building: <br>
 [**satu**](https://satu.mnmls.net) - cozy productivity companion to keep your focus on a single task with Lofi 🎵
+
+![Satu App](<satu-ss.png>)
+
