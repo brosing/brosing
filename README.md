@@ -12,6 +12,7 @@ I love where design and code collide, and AI has turned that spark into a full-t
   - [pokematch](https://pokematch.mnmls.net) — a playful Pokemon memory game
 - Also love making useful tools in other stacks, like:
   - [kala](https://github.com/brosing/Kala) — a minimalist __open source__ photo journal that’s local-first and export-ready
+  - [podman-bar](https://github.com/brosing/podman-bar) — a minimalist __open source__ to view status, start/stop machines and containers right from your menu bar.
   - [Tufoku](https://chromewebstore.google.com/detail/tufoku/odfdbefdkffmkegolloiifcifclofeim) — Minimal todo list with notes & lofi player as your Chrome new tab page
   - [Ayah of The Day](https://chromewebstore.google.com/detail/ayah-of-the-day/amhjpdjjkeboeogdofoidkcmfjnaafaf) — Quote of the day from the Quran as your Chrome new tab page
 
