@@ -1,28 +1,34 @@
-## Hey there — I’m Singgih 👋
-I love where design and code collide, and AI has turned that spark into a full-time builder energy. 👨‍💻
+## Hey there, I’m Singgih 👋
 
-- Currently building fullstack magic at Houp.
+I build software where polished interfaces, reliable systems, and tiny product details meet. Most of my work sits around `TypeScript`, modern frontend architecture, mobile apps, and minimalist tools that make daily workflows feel calmer.
+
+- Currently building fullstack product features at [kalg.ai](https://kalg.ai)
 - Former Tech Lead for frontend web + mobile at Lifepack.
-- Crafted native iOS apps with `Swift` & `SwiftUI`.
-- Built cross-platform mobile experiences using `React Native`.
-- Mostly writing `TypeScript`, `React.js`, and `Next.js` for SPA, PWA, JAMstack, and anything that feels smooth.
-- Lately I’m hooked on `Svelte`, and I’ve been shipping:
-  - [unekunik](https://unekunik.com) — a SvelteKit passion project
-  - [mnnote](https://github.com/brosing/mnote) — built with Svelte 5 + Tauri
-  - [pokematch](https://pokematch.mnmls.net) — a playful Pokemon memory game
-- Also love making useful tools in other stacks, like:
-  - [kala](https://github.com/brosing/Kala) — a minimalist __open source__ photo journal that’s local-first and export-ready
-  - [podman-bar](https://github.com/brosing/podman-bar) — a minimalist __open source__ to view status, start/stop machines and containers right from your menu bar.
-  - [Tufoku](https://chromewebstore.google.com/detail/tufoku/odfdbefdkffmkegolloiifcifclofeim) — Minimal todo list with notes & lofi player as your Chrome new tab page
-  - [Ayah of The Day](https://chromewebstore.google.com/detail/ayah-of-the-day/amhjpdjjkeboeogdofoidkcmfjnaafaf) — Quote of the day from the Quran as your Chrome new tab page
+- Shipping production interfaces with `TypeScript`, `React.js`, `Next.js`, SPA, PWA, and JAMstack patterns.
+- Building native iOS experiences with `Swift` and `SwiftUI`.
+- Creating cross-platform mobile apps with `React Native`.
+- Exploring `Svelte`, `SvelteKit`, `Tauri`, AI-assisted workflows, and local-first app ideas.
+- I care about clean UI systems, fast feedback loops, accessible interactions, and products that protect focus instead of stealing it.
 
-Want to see the full story? Peek my [LinkedIn](https://linkedin.com/in/singgih-nn), [X](https://x.com/singgih_nn), or [Threads](https://threads.com/@singgih_nn).
+Lately I’ve been making small, intentional products under [mnmls.net](https://mnmls.net): quiet tools crafted to filter digital noise, simplify workflows, and make everyday software feel a little more human.
+
+Want the longer story? Find me on [LinkedIn](https://linkedin.com/in/singgih-nn), [X](https://x.com/singgih_nn), or [Threads](https://threads.com/@singgih_nn).
 
 ---
 
-I build minimalist products for focus and flow, featured on [mnmls.net](https://mnmls.net). Right now I’m excited about:
+### Projects I’m shaping
 
-[**satu**](https://satu.mnmls.net) — a cozy productivity companion for staying locked into one task with lo-fi vibes. 🎵
+- [**Satu**](https://satu.mnmls.net) — a macOS menubar focus app for staying with one task at a time, pairing lightweight task tracking with a gentle lo-fi rhythm for deep work and rest.
+- [**Mnote**](https://github.com/brosing/mnote) — an ultra-clean journaling app built with `Svelte 5` and `Tauri`; a quiet writing surface without the usual app clutter.
+- [**Tufoku**](https://chromewebstore.google.com/detail/tufoku/odfdbefdkffmkegolloiifcifclofeim) — a minimalist Chrome new tab workspace with notes, tasks, and a warm lo-fi player.
+- [**Kala**](https://github.com/brosing/Kala) — an open-source, local-first photo journal for pairing one daily image with a few thoughtful lines.
+- [**Podman-bar**](https://github.com/brosing/podman-bar) — an open-source macOS menubar utility for checking status and controlling local Podman machines and containers.
+- [**Poke Match**](https://pokematch.mnmls.net) — a sleek, nostalgia-fueled memory game and one of my favorite Svelte learning playgrounds.
+- [**unekunik**](https://unekunik.com) — a SvelteKit passion project.
+- [**Ayah of The Day**](https://chromewebstore.google.com/detail/ayah-of-the-day/amhjpdjjkeboeogdofoidkcmfjnaafaf) — a Chrome new tab extension for replacing empty tab-opening with moments of reflection.
+
+### Featured build
+
+[**Satu**](https://satu.mnmls.net) is the one I’m especially excited about right now: a tiny productivity companion living quietly in the Mac menubar.
 
 ![Satu App](<satu-ss.png>)
-
