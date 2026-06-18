@@ -31,4 +31,4 @@ Want the longer story? Find me on [LinkedIn](https://linkedin.com/in/singgih-nn)
 
 [**Satu**](https://satu.mnmls.net) is the one I’m especially excited about right now: a tiny productivity companion living quietly in the Mac menubar.
 
-![Satu App](<satu-ss.png>)
+![Satu App](<satu-ss.jpg>)
