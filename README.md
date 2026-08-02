@@ -19,9 +19,12 @@ Want the longer story? Find me on [LinkedIn](https://linkedin.com/in/singgih-nn)
 ### Projects I’m shaping
 
 - [**Satu**](https://satu.mnmls.net) — a macOS menubar focus app for staying with one task at a time, pairing lightweight task tracking with a gentle lo-fi rhythm for deep work and rest.
+- [**DownIt**](https://downit.mnmls.net) — turns your GitHub repo into a beautiful place to read, recheck, or edit a small piece you forgot right in your pocket. For novelists versioning chapters in git, and developers writing fiction on the side.
+- [**md-rpg**](https://github.com/brosing/md-rpg) — Headless runtime for interactive fiction authored entirely in Markdown.
+- [**The Boy Who Collected Silence**](https://bellwood.mnmls.net/) — a fiction for people who used to read and stopped, and people who never really started.
+- [**Kala**](https://github.com/brosing/Kala) — an open-source, local-first photo journal for pairing one daily image with a few thoughtful lines.
 - [**Mnote**](https://github.com/brosing/mnote) — an ultra-clean journaling app built with `Svelte 5` and `Tauri`; a quiet writing surface without the usual app clutter.
 - [**Tufoku**](https://chromewebstore.google.com/detail/tufoku/odfdbefdkffmkegolloiifcifclofeim) — a minimalist Chrome new tab workspace with notes, tasks, and a warm lo-fi player.
-- [**Kala**](https://github.com/brosing/Kala) — an open-source, local-first photo journal for pairing one daily image with a few thoughtful lines.
 - [**Podman-bar**](https://github.com/brosing/podman-bar) — an open-source macOS menubar utility for checking status and controlling local Podman machines and containers.
 - [**Poke Match**](https://pokematch.mnmls.net) — a sleek, nostalgia-fueled memory game and one of my favorite Svelte learning playgrounds.
 - [**unekunik**](https://unekunik.com) — a SvelteKit passion project.
